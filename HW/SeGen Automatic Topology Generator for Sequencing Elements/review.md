@@ -3,7 +3,7 @@ In sequential element design,
 - Current Topology of sequencial element rely on the expertise of designer.
 - Could not search all available FF topologielian functions -> derive circuit topologies from each of them.
 
-# 2. Past Method 
+# 2. Past Method
 ## 2.1. Master-slave edge triggered structure 
 ex. transmissing-gate FF (TGFF)
 - straightforward operation, robustness
@@ -58,10 +58,13 @@ SeGen : Logic-level Sequencing element synthesis methodology
 - Finally, Eliminate redundant transistors.
 
 ## 4.2. Implementation
+### 4.2.1. Validation
+![img.png](img.png)
 
 
 
-# 5. Experiments 
+# 5. Experiments
+
 
 # 6. Conclusion 
 

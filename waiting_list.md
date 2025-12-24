@@ -90,7 +90,9 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 - **Workload-Balanced Pruning for Sparse Spiking Neural Networks (U-ticket)**  (2)
   - Level: Review
-  - Note: 
+  - Note: Iteratively modifying neuron connection while training the model, It resolves load imbalance problem while preserving sparsity and accuracy.
+
+- **Prosperity: Accelerating Spiking Neural Networks via Product Sparsity**
 
 - **AQUA: Activity- and Quantization-Aware Uniform Pruning for Spiking Neural Networks**  (3)
 

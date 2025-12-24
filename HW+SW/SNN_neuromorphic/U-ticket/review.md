@@ -1,7 +1,7 @@
 ---
 title: "Workload-Balanced Pruning for Sparse Spiking Neural Networks"
 ref: IEEE TRANSACTIONS ON EMERGING TOPICS IN COMPUTATIONAL INTELLIGENCE, 2024
-date : 2025-12-18
+date : 2025-12-23
 authors : Ruokai Yin et al
 level: "Review"
 status: "Draft"
@@ -17,7 +17,7 @@ status: "Draft"
 
 ### 1.1 Main Problem
 - Workload Imbalance problem : Large seale SNN is impractical to realize, pruning method is used. But, pruning results in imbanced non-zero density throughout computing unit, it waste power, performance.
-
+U
 ### 1.2 Previous Approaches and Their Limitations
 - Additional Hardware unit(FIFO, permuting unit) 
 

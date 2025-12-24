@@ -84,9 +84,16 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 ### HW + SW (Neuromorphic / SNN)
 
-- **TrueNorth: Design and Tool Flow of a 65 mW 1 Million Neuron Programmable Neurosynaptic Chip**  (1)
+- **TrueNorth: Design and Tool Flow of a 65 mW 1 Million Neuron Programmable Neurosynaptic Chip**
+  - Level: Review
+  - Note: Utilizing SNN's asynchronous nature, architecture / circuit / manufacture level departure from conventional von-Neumman architecture.
 
-- **Workload-Balanced Pruning for Sparse Spiking Neural Networks**  (2)
+- **Workload-Balanced Pruning for Sparse Spiking Neural Networks (U-ticket)**  (2)
+  - Level: Review
+  - Note: 
 
 - **AQUA: Activity- and Quantization-Aware Uniform Pruning for Spiking Neural Networks**  (3)
 
+- **Sata: Sparsity-aware training accelerator for spiking neural networks** (4)
+
+- **GoSPA: An Energy-efficient High-performance Globally Optimized SParse Convolutional Neural Network Accelerator∗** (4)

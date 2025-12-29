@@ -9,6 +9,8 @@ status: "Draft"
 
 # TL;DR
 
+Considering SNN's temporal quantization-friendly nature. which is distinguished from DNN, formalizing criteria for activation-aware pruning and quantization-aware rebalancing in LTH-based training-pruning proceedure.
+
 ---
 
 ## 1. Problem Context
@@ -40,10 +42,12 @@ status: "Draft"
 - Importance
 ![Importance](image-4.png)
 
+- Importance is originally calculated as absolute weight in previous work. But, if we want to consider about not only spatial-related info but also temporal-related info, activity-related term should be included in importance calculation. 
+- So, utilization-related information cannot be obtained from weight directly, it requires foward pass using real data. Additional inference step is added from AQUA, and criteria used for pruning and rebalancing also differs. But LTH-based training methodology is fundamentally identical.
+
 #### 2.1.3. Expectation-based rebalancing
 - Workload computation, rebalancing criteria 
 ![expectation](image-5.png)
-
 
 ### 2.2 How and Why It Works
 
@@ -77,8 +81,4 @@ VGG-16, ResNet-19 (with pytorch)
 - In 3.1.1., maximum minimum difference is 1%. is it really matters? 
 
 - likelihood-based is different with weight magnitude-based rebalancing? 
-
-
-
-
 

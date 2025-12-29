@@ -88,13 +88,15 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
   - Level: Review
   - Note: Utilizing SNN's asynchronous nature, architecture / circuit / manufacture level departure from conventional von-Neumman architecture.
 
-- **Workload-Balanced Pruning for Sparse Spiking Neural Networks (U-ticket)**  (2)
+- **Workload-Balanced Pruning for Sparse Spiking Neural Networks (U-ticket)**
   - Level: Review
   - Note: Iteratively modifying neuron connection while training the model, It resolves load imbalance problem while preserving sparsity and accuracy.
 
 - **Prosperity: Accelerating Spiking Neural Networks via Product Sparsity**
+  - Level : Review
+  - Note : Utilizing product sparsity(reuseable nature of axon accumulation) of SNN, Optimized hardware with algorithm-aware method, result in significantly improved power, latency, area when inference spiking CNN / spiking transformers.
 
-- **AQUA: Activity- and Quantization-Aware Uniform Pruning for Spiking Neural Networks**  (3)
+- **AQUA: Activity- and Quantization-Aware Uniform Pruning for Spiking Neural Networks**
 
 - **Sata: Sparsity-aware training accelerator for spiking neural networks** (4)
 

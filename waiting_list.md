@@ -97,6 +97,8 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
   - Note : Utilizing product sparsity(reuseable nature of axon accumulation) of SNN, Optimized hardware with algorithm-aware method, result in significantly improved power, latency, area when inference spiking CNN / spiking transformers.
 
 - **AQUA: Activity- and Quantization-Aware Uniform Pruning for Spiking Neural Networks**
+  - Level : Review
+  - Note : Considering SNN's temporal quantization-friendly nature. which is distinguished from DNN, formalizing criteria for activation-aware pruning and quantization-aware rebalancing in LTH-based training-pruning proceedure.
 
 - **Sata: Sparsity-aware training accelerator for spiking neural networks** (4)
 

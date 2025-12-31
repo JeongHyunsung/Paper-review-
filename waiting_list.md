@@ -100,6 +100,8 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
   - Level : Review
   - Note : Considering SNN's temporal quantization-friendly nature. which is distinguished from DNN, formalizing criteria for activation-aware pruning and quantization-aware rebalancing in LTH-based training-pruning proceedure.
 
-- **Sata: Sparsity-aware training accelerator for spiking neural networks** (4)
+- **Sata: Sparsity-aware training accelerator for spiking neural networks** 
 
-- **GoSPA: An Energy-efficient High-performance Globally Optimized SParse Convolutional Neural Network Accelerator∗** (4)
+- **GoSPA: An Energy-efficient High-performance Globally Optimized SParse Convolutional Neural Network Accelerator∗** 
+
+- **LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks** (1)

@@ -94,7 +94,7 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 - **Prosperity: Accelerating Spiking Neural Networks via Product Sparsity**
   - Level : Review
-  - Note : Utilizing product sparsity(reuseable nature of axon accumulation) of SNN, Optimized hardware with algorithm-aware method, result in significantly improved power, latency, area when inference spiking CNN / spiking transformers.
+  - Note : Utilizing product sparsity(reuse of axon accumulation) of SNN, Optimized hardware with algorithm-aware method, result in significantly improved power, latency, area when inference spiking CNN / spiking transformers.
 
 - **AQUA: Activity- and Quantization-Aware Uniform Pruning for Spiking Neural Networks**
   - Level : Review
@@ -105,3 +105,13 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 - **GoSPA: An Energy-efficient High-performance Globally Optimized SParse Convolutional Neural Network Accelerator∗** 
 
 - **LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks** (1)
+
+- **SpikingBERT: Distilling BERT to Train Spiking Language Models Using Implicit Differentiation** 
+
+- **Optimality of Gerver’s Sofa**
+
+- **Identifying Efficient Dataflows for Spiking Neural Networks** (1)
+
+
+
+

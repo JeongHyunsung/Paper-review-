@@ -104,13 +104,39 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 - **GoSPA: An Energy-efficient High-performance Globally Optimized SParse Convolutional Neural Network Accelerator∗** 
 
-- **LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks** (1)
+- **LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks**
 
 - **SpikingBERT: Distilling BERT to Train Spiking Language Models Using Implicit Differentiation** 
 
 - **Optimality of Gerver’s Sofa**
 
-- **Identifying Efficient Dataflows for Spiking Neural Networks** (1)
+- **Identifying Efficient Dataflows for Spiking Neural Networks**
+
+#### DSE for accelerator 
+
+GeMM
+- **Timeloop: A Scalable and Accurate Architecture Modeling Framework for Deep Neural Network Accelerators** (1)
+- **Accelergy: An Architecture-Level Energy Estimation Methodology for Accelerator Designs**
+- **dMazeRunner: Executing Perfectly Nested Loops on Reconfigurable Accelerator Architectures**
+- **MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of Deep Neural Network Accelerators** 
+- **MAGNet: A Modular Accelerator Generator for Neural Networks**
+- **ZigZag: A Memory-Centric Rapid Deep Neural Network Accelerator Design Space Exploration Framework** (3)
+- **Sparseloop: An Analytical, Iterative Design Space Exploration Framework for Sparse Tensor Accelerators** (2)
+- **SMAUG: End-to-End Full-Stack Simulation Framework for Deep Neural Network Accelerators**
+- **TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators** (1)
+
+SNN-specific
+- **A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface**
+- **SpiNNaker: A 1-Million Core Spiking-Neuron Integrated Circuit Platform for Real-Time Brain Simulation**
+- **Loihi: A Neuromorphic Manycore Processor with On-Chip Learning**
+- **Loihi 2: A Neuromorphic Manycore Processor with Programmable Learning**
+- **SpikeExplorer: Hardware-Oriented Design Space Exploration for Spiking Neural Networks on FPGA**
+- **Design Space Exploration of Sparsity-Aware Application-Specific Spiking Neural Network Accelerators**
+- **SpikeX: Exploring Accelerator Architecture and Network Co-Design for Spiking Neural Networks** (5)
+- **Spiker+: A Framework for Generating Efficient Spiking Neural Network Accelerators on FPGA**
+- **SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks**
+
+
 
 
 

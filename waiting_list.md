@@ -1,20 +1,4 @@
-2025 Summer
-
-SW 
-VLLM with paged attention
-
-SW+HW
-Decoupled chunk attention+PIM
-
-2025 Fall 
-
-HW
-SeGen (impl + advance => paper)
-
-SW 
-seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
-
-2025 Winter# Paper Reading Log (Minimal)
+# Paper Reading Log (Minimal)
 
 ## Reading Level Legend
 - **Insight**: Core idea and problem framing understood
@@ -26,13 +10,13 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 ## 2025 Summer
 
-### SW
+### Systems / LLM Serving
 
 - **vLLM: Efficient Memory Management for Large Language Model Serving with PagedAttention**  
   - Level: Review  
   - Note: Proposes a paging-based KV-cache management scheme that significantly improves memory efficiency and throughput in LLM serving.
 
-### SW + HW
+### Systems + HW (PIM)
 
 - **Decoupled Chunk Attention with Processing-in-Memory**  
   - Level: Review  
@@ -42,13 +26,13 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 ## 2025 Fall
 
-### HW
+### Hardware / EDA
 
 - **SeGen: Automatic Topology Generator for Sequencing Elements (B-Flex)**  
   - Level: Improved / Paper  
   - Note: Automatically explores sequencing-element topology spaces and generates novel flip-flop designs, culminating in a published paper.
 
-### SW (Seminar — Insight Only)
+### ML Methods (Seminar — Insight Only)
 
 - **Bayesian Code Diffusion for Efficient Automatic Deep Learning Program Optimization**  
   - Level: Insight  
@@ -74,19 +58,28 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
 
 ## 2025 Winter
 
-### SW
+### ML Methods
 
 - **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** (2)
 
-### EDA
+### Hardware / EDA
 
 - **INSTA: An Ultra-Fast, Differentiable, Statistical Static Timing Analysis Engine for Industrial Physical Design Applications**  (1)
 
-### HW + SW (Neuromorphic / SNN)
+### Neuromorphic / SNN
+
+#### Chips / Platforms
 
 - **TrueNorth: Design and Tool Flow of a 65 mW 1 Million Neuron Programmable Neurosynaptic Chip**
   - Level: Review
   - Note: Utilizing SNN's asynchronous nature, architecture / circuit / manufacture level departure from conventional von-Neumman architecture.
+
+- **A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface**
+- **SpiNNaker: A 1-Million Core Spiking-Neuron Integrated Circuit Platform for Real-Time Brain Simulation**
+- **Loihi: A Neuromorphic Manycore Processor with On-Chip Learning**
+- **Loihi 2: A Neuromorphic Manycore Processor with Programmable Learning**
+
+#### Training / Pruning
 
 - **Workload-Balanced Pruning for Sparse Spiking Neural Networks (U-ticket)**
   - Level: Review
@@ -100,41 +93,59 @@ seminars (bayesian, BF-STVSR, BIGS, HUSH, flat reward)
   - Level : Review
   - Note : Considering SNN's temporal quantization-friendly nature. which is distinguished from DNN, formalizing criteria for activation-aware pruning and quantization-aware rebalancing in LTH-based training-pruning proceedure.
 
+#### Accelerators / Dataflow
+
 - **Sata: Sparsity-aware training accelerator for spiking neural networks** 
-
 - **GoSPA: An Energy-efficient High-performance Globally Optimized SParse Convolutional Neural Network Accelerator∗** 
-
 - **LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks**
-
 - **SpikingBERT: Distilling BERT to Train Spiking Language Models Using Implicit Differentiation** 
+- **Identifying Efficient Dataflows for Spiking Neural Networks**
+- **SpikeExplorer: Hardware-Oriented Design Space Exploration for Spiking Neural Networks on FPGA**
+- **Design Space Exploration of Sparsity-Aware Application-Specific Spiking Neural Network Accelerators**
+- **SpikeX: Exploring Accelerator Architecture and Network Co-Design for Spiking Neural Networks** 
+- **Spiker+: A Framework for Generating Efficient Spiking Neural Network Accelerators on FPGA**
+- **SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks**
+
+### Accelerators / DSE
+
+#### Frameworks / Models
+
+- **Timeloop: A Scalable and Accurate Architecture Modeling Framework for Deep Neural Network Accelerators** 
+- **Accelergy: An Architecture-Level Energy Estimation Methodology for Accelerator Designs**
+- **MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of Deep Neural Network Accelerators** 
+- **MAGNet: A Modular Accelerator Generator for Neural Networks**
+- **SMAUG: End-to-End Full-Stack Simulation Framework for Deep Neural Network Accelerators**
+- **TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators**
+
+#### Mapping / Dataflow
+
+- **dMazeRunner: Executing Perfectly Nested Loops on Reconfigurable Accelerator Architectures**
+- **Sparseloop: An Analytical, Iterative Design Space Exploration Framework for Sparse Tensor Accelerators** 
+  - Level : Review 
+  - Note : Generalizing sparse-aware accelerator techniques and integrate it into simulation flow, building Flexible, Fast, Accurate simulator for Tensor accelerators.
+- **Ruby: Improving Hardware Efficiency for Tensor Algebra Accelerators Through Imperfect Factorization** 
+  - Level : Review 
+  - Note : Extending design space from Perfect factorization => Imperfect factorization space  mapping space, find more optimal solution space.
+
+#### DSE Methods
+
+- **GAMMA**
+- **COSA**
+- **Mind Mapping**
+- **ZigZag: A Memory-Centric Rapid Deep Neural Network Accelerator Design Space Exploration Framework** (1)
+- **ArchitectV2**
+- **DOSA** (2)
+- **GANDSE**
+- **NAAS**
+- **VAESA**
+- **Ruby: Improving Hardware Efficiency for Tensor Algebra Accelerators Through Imperfect Factorization** 
+  - Level : Review 
+  - Note : Extending design space from Perfect factorization => Imperfect factorization space  mapping space, find more optimal solution space.
+
+### Misc
 
 - **Optimality of Gerver’s Sofa**
 
-- **Identifying Efficient Dataflows for Spiking Neural Networks**
-
-#### DSE for accelerator 
-
-GeMM
-- **Timeloop: A Scalable and Accurate Architecture Modeling Framework for Deep Neural Network Accelerators** (1)
-- **Accelergy: An Architecture-Level Energy Estimation Methodology for Accelerator Designs**
-- **dMazeRunner: Executing Perfectly Nested Loops on Reconfigurable Accelerator Architectures**
-- **MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of Deep Neural Network Accelerators** 
-- **MAGNet: A Modular Accelerator Generator for Neural Networks**
-- **ZigZag: A Memory-Centric Rapid Deep Neural Network Accelerator Design Space Exploration Framework** (3)
-- **Sparseloop: An Analytical, Iterative Design Space Exploration Framework for Sparse Tensor Accelerators** (2)
-- **SMAUG: End-to-End Full-Stack Simulation Framework for Deep Neural Network Accelerators**
-- **TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators** (1)
-
-SNN-specific
-- **A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface**
-- **SpiNNaker: A 1-Million Core Spiking-Neuron Integrated Circuit Platform for Real-Time Brain Simulation**
-- **Loihi: A Neuromorphic Manycore Processor with On-Chip Learning**
-- **Loihi 2: A Neuromorphic Manycore Processor with Programmable Learning**
-- **SpikeExplorer: Hardware-Oriented Design Space Exploration for Spiking Neural Networks on FPGA**
-- **Design Space Exploration of Sparsity-Aware Application-Specific Spiking Neural Network Accelerators**
-- **SpikeX: Exploring Accelerator Architecture and Network Co-Design for Spiking Neural Networks** (5)
-- **Spiker+: A Framework for Generating Efficient Spiking Neural Network Accelerators on FPGA**
-- **SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks**
 
 
 

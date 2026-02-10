@@ -8,7 +8,7 @@ status: "Draft"
 ---
 
 # TL;DR
-##
+## Mapping-first, Analytical model based Gradient discent ANN accelerator DSE within Gemmini architecture.
 
 ---
 

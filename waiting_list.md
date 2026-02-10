@@ -138,7 +138,9 @@
 - **Mind Mapping**
 - **ZigZag: A Memory-Centric Rapid Deep Neural Network Accelerator Design Space Exploration Framework** (1)
 - **ArchitectV2**
-- **DOSA** (2)
+- **DOSA**
+  - Level : Review 
+  - Note : Mapping-first, Analytical model based Gradient discent ANN accelerator DSE within Gemmini architecture
 - **GANDSE**
 - **NAAS**
 - **VAESA**

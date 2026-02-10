@@ -46,8 +46,9 @@ DNN accelerator DSE
 1. Required HW specification : minimum PE number, minimum buffer size
 2. Power model : action count * analytical model for each storage layer 
 3. latency model : maximum of compute delay and memory delay 
-**Details can be referenced by original paper**
 is built, and utilized in optimization process.
+
+**Details can be referenced by original paper**
 ![alt text](image.png)
 
 ### 3.2 How and Why It Works
@@ -59,6 +60,12 @@ is built, and utilized in optimization process.
 
 ### 4.2 Key Results
 
+#### Optimization result 
+![alt text](image-2.png)
+
+#### Analytical model(+ML based refinement) - Gemmini-RTL metrics relation.
+![alt text](image-1.png)
+
 ### 4.3 Conclusions and Implications
 
 ## 5. My Perspective (Optional)
@@ -68,3 +75,5 @@ is built, and utilized in optimization process.
 -> This specific assumption also restrict mapping space, because arch<->mapping efficiency has strong relation.
 
 ### Related to DSE methodology 
+- analytical model is just replication of Timeloop analytical model, eliminating nonlinear factor (ceiling function)? 
+

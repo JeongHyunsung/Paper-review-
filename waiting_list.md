@@ -105,6 +105,10 @@
 - **SpikeX: Exploring Accelerator Architecture and Network Co-Design for Spiking Neural Networks** 
 - **Spiker+: A Framework for Generating Efficient Spiking Neural Network Accelerators on FPGA**
 - **SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks**
+- **Gemmini**
+  - Level : Listing 
+  - Note : Systolic-array based DNN accelerator generator which provides full-stack integration (HW configs -> Multi-level SW -> Linux SoC)
+- **Simba**
 
 ### Accelerators / DSE
 

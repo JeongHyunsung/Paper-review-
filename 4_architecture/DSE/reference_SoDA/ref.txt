@@ -1,0 +1,159 @@
+1) Mapping-centric / scheduling / map-space exploration
+Timeloop: A Systematic Approach to DNN Accelerator Evaluation
+ISPASS 2019
+DBLP
+Sparseloop: An Analytical Approach To Sparse Tensor Accelerator Modeling
+MICRO 2022
+DBLP
+MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings
+IEEE Micro 2020
+NVIDIA page
+GAMMA: Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm
+ICCAD 2020
+DBLP
+Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search
+ASPLOS 2021
+DBLP
+Demystifying Map Space Exploration for NPUs
+IISWC 2022
+DBLP
+LOMA: Fast Auto-Scheduling on DNN Accelerators through Loop-Order-based Memory Allocation
+AICAS 2021
+DBLP
+SALSA: Simulated Annealing based Loop-Ordering Scheduler for DNN Accelerators
+AICAS 2023 / arXiv 2023
+DBLP
+ / arXiv
+Sunstone: A Scalable and Versatile Scheduler for Mapping Tensor Algebra on Spatial Accelerators
+ISPASS 2023
+DBLP
+NeuroSpector: Systematic Optimization of Dataflow Scheduling in DNN Accelerators
+IEEE TPDS 2023
+DBLP
+
+1. Turbo-Charged Mapper (2026, MIT)
+The Turbo-Charged Mapper: Fast and Optimal Mapping for Accelerator Modeling and Evaluation
+
+
+
+
+
+2) Joint HW–mapping co-exploration / co-design
+ZigZag: Enlarging Joint Architecture-Mapping Design Space Exploration for DNN Accelerators
+IEEE Transactions on Computers 2021
+DBLP
+NAAS: Neural Accelerator Architecture Search
+DAC 2021
+IEEE Xplore landing page
+
+네 분류가 맞다. 다만 내가 이번 세션에선 원문 메타데이터를 직접 열진 못했다.
+Interstellar: Using Halide's Scheduling Language to Analyze DNN Accelerators
+ASPLOS 2020
+DBLP
+DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators
+DATE 2022
+DBLP
+CoSA: Scheduling by Constrained Optimization for Spatial Accelerators
+ISCA 2021
+DBLP
+
+DBLP
+HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation
+ISCA 2021
+DBLP
+A Full-Stack Search Technique for Domain Optimized Deep Learning Accelerators
+ASPLOS 2022
+DBLP
+DOSA: One-Loop DSE for DNN Accelerators Using Differentiable Models
+MICRO 2023
+OpenReview
+ / paper PDF
+Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators
+HPCA 2024
+DBLP
+
+
+
+
+
+
+
+3) HW-search / learned DSE
+AIRCHITECT: Learning Custom Architecture Design and Mapping Space
+arXiv 2021
+DBLP
+ / arXiv
+Apollo: Transferable Architecture Exploration
+arXiv 2021
+arXiv
+Learned Hardware/Software Co-Design of Neural Accelerators
+arXiv 2020
+arXiv
+
+네가 적은 “Using Bayesian Optimization for Hardware/Software Co-Design of Neural Accelerators”는 워크숍 표기일 가능성이 있지만, 안정적인 공개 레퍼런스 제목은 이 arXiv 제목으로 보인다.
+Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design
+ISPASS 2022
+DBLP
+
+
+
+
+
+
+4) Modeling / evaluation infrastructure
+Accelergy: An Architecture-Level Energy Estimation Methodology for Accelerator Designs
+ICCAD 2019
+DBLP
+Aladdin: A Pre-RTL, Power-Performance Accelerator Simulator Enabling Large Design Space Exploration of Customized Architectures
+ISCA 2014
+IEEE Xplore landing page
+
+이건 DNN-specific은 아니지만, infra reference로는 적절하다.
+CACTI 6.0: A Tool to Model Large Caches
+HP Labs technical report / tool page
+HP page
+
+이것도 accelerator simulator라기보다 memory modeling reference다.
+Roofline: An Insightful Visual Performance Model for Multicore Architectures
+CACM 2009
+ACM DOI page
+
+이것도 DNN accelerator-specific simulator가 아니라 high-level performance model reference다.
+
+
+
+
+
+5) Representative accelerators / generators / frameworks
+In-Datacenter Performance Analysis of a Tensor Processing Unit
+ISCA 2017
+IEEE Xplore landing page
+Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
+ISCA 2016
+DBLP
+Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices
+IEEE JETCAS 2019
+DBLP
+Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration
+DAC 2021
+DBLP
+
+검색 결과에서 제목/venue는 확인됐고, canonical DBLP record는 이 DAC record다.
+MAGNet: A Modular Accelerator Generator for Neural Networks
+ICCAD 2019
+DBLP
+
+정확한 DBLP record는 author initials가 긴 편이라, title로 찾는 게 더 쉽다. venue/title는 확인됨.
+Stellar: An Automated Design Framework for Dense and Sparse Spatial Accelerators
+MICRO 2024
+DBLP
+
+DATAFLOW 
+SIGMA: Formalizing Dataflow in DNN Accelerators
+
+TENET: A Framework for Modeling Tensor Dataflow Based on Relation-centric Notation
+ISCA 2021
+
++ Accelergy 
++ Simba 
++ Ruby

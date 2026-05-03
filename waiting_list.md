@@ -60,7 +60,7 @@
 
 ### ML Methods
 
-- **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** (2)
+- **Mamba: Linear-Time Sequence Modeling with Selective State Spaces**
 
 ### Hardware / EDA
 
@@ -151,6 +151,19 @@
 ### Misc
 
 - **Optimality of Gerver’s Sofa**
+
+## 2026 SPRING 
+
+### Berkley-sophia shao 
+- **Stellar: An Automated Design Framework for Dense and Sparse Spatial Accelerators**
+
+### Cornell-Jishen Zhao
+- **SmoothE: Di!erentiable E-Graph Extraction**
+  - Level : Review
+  - Note : 
+  
+
+
 
 
 

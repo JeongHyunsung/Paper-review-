@@ -158,16 +158,22 @@
 - **Stellar: An Automated Design Framework for Dense and Sparse Spatial Accelerators**
 
 ### Cornell-Jishen Zhao
-- **SmoothE: Di!erentiable E-Graph Extraction**
+- **SmoothE: Differentiable E-Graph Extraction**
   - Level : Review
-  - Note : 
-  
+  - Note : Relaxing the binary E-graph extraction problem into a differentiable continuous optimization framework, while explicitly modeling the coupling between local selection probabilities and global structural consistency, and enforcing acyclicity through differentiable constraints.
+
+### UNIST-Ranggi Hwang
+- **Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference**
+  - Level : Review 
+  - Note : Resolving expert selection-execution data dependency which causes CPU-GPU data transfer overhead, by pre-gating experts 1 layer before, improving small scale MoE deployment scalability & performance & efficiency.
 
 
 
+Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations, Hwang et al., ISCA-2020
 
+GROW: A Row-Stationary Sparse-Dense GEMM Accelerator for Memory-Efficient Graph Convolutional Neural Networks, Hwang et al., HPCA-2023
 
-
+SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks, Parashar et al., ISCA-2017
 
 
 

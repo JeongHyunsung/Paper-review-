@@ -1,3 +1,12 @@
+---
+title: "SmoothE: Di!erentiable E-Graph Extraction"
+ref: ASPLOS 2025 (best paper)
+date : 2026-05-03
+PI : Zhiru Zhang (cornell)
+level: "Review"
+status: "Draft"
+---
+
 # 1. Motivation
 - E-graph is widely used to optimize e-graph extraction, in compiler optimization, theorem proving, program synthesis.
 - **E-graph extraction** is critical, since it determines cost-efficiency.

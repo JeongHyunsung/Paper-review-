@@ -167,6 +167,13 @@
   - Level : Review 
   - Note : Resolving expert selection-execution data dependency which causes CPU-GPU data transfer overhead, by pre-gating experts 1 layer before, improving small scale MoE deployment scalability & performance & efficiency.
 
+### MoE expert parallelism 
+- **MoEntwine** HPCA 2025
+- **LAER-MoE** ASPLOS 2026
+- **FSMoE** ASPLOS 2025
+  - Level : Review 
+  - Note : End-to-end MoE inference/training system tackling algorithmic flexibility and exploiting dynamic scheduling pipelining opportunity
+
 
 
 Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations, Hwang et al., ISCA-2020

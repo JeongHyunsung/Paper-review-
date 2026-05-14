@@ -174,6 +174,15 @@
   - Level : Review 
   - Note : End-to-end MoE inference/training system tackling algorithmic flexibility and exploiting dynamic scheduling pipelining opportunity
 
+### GTech-Callie hao
+- **Faster-MoA** DAC2026
+  - Level : Review
+  - Note : Tackling redundancy & inefficiency in MoA dense inference, exploit A2A sparsity via tree-structured topology
+- **Omnisim** 
+  - Level : Review 
+  - Note : Bridging the gap between HLS(c-level abstraction) to RTL level simulation, improved capability and scalability of performance/functional simulation by flexibly correlates them.
+
+
 
 
 Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations, Hwang et al., ISCA-2020

@@ -182,10 +182,15 @@
   - Level : Review 
   - Note : Bridging the gap between HLS(c-level abstraction) to RTL level simulation, improved capability and scalability of performance/functional simulation by flexibly correlates them.
 
+### MIT-Joel Emer
+- **Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices**
+  - Level: Review
+  - Note: By proposing and implementing 2-level hierarchical NoC, eyetiss V2 could adapt to various range(compact, sparse NN) of workloads while remain efficient. Diverse dataflow type is realized by composing inter-cluster mesh network and intra-cluster all2all netowrk.
 
+### Course-driven (ACA)
+- In-Datacenter Performance Analysis of a Tensor Processing Unit (Analysis of TPU performance and energy efficiecny based on real world workload)
+- Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations (Accelerating heterogeneous worklaod via package-integrated CPU+FPGA system and custom heterogeneous microarchitecture)
 
-
-Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations, Hwang et al., ISCA-2020
 
 GROW: A Row-Stationary Sparse-Dense GEMM Accelerator for Memory-Efficient Graph Convolutional Neural Networks, Hwang et al., HPCA-2023
 

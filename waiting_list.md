@@ -191,10 +191,16 @@
 - In-Datacenter Performance Analysis of a Tensor Processing Unit (Analysis of TPU performance and energy efficiecny based on real world workload)
 - Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations (Accelerating heterogeneous worklaod via package-integrated CPU+FPGA system and custom heterogeneous microarchitecture)
 
+## Stanford-Priyanka Reina
+- **Voyager: An End-to-End Framework for Design-Space Exploration and Generation of DNN Accelerators**
+  - Level: Review
+  - Note: 
+
 
 GROW: A Row-Stationary Sparse-Dense GEMM Accelerator for Memory-Efficient Graph Convolutional Neural Networks, Hwang et al., HPCA-2023
 
 SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks, Parashar et al., ISCA-2017
+
 
 
 

@@ -181,6 +181,9 @@
 - **Omnisim** 
   - Level : Review 
   - Note : Bridging the gap between HLS(c-level abstraction) to RTL level simulation, improved capability and scalability of performance/functional simulation by flexibly correlates them.
+- **LaZagna** ICCAD2025
+  - Level : Review
+  - Note : 
 
 ### MIT-Joel Emer
 - **Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices**
@@ -194,7 +197,21 @@
 ## Stanford-Priyanka Reina
 - **Voyager: An End-to-End Framework for Design-Space Exploration and Generation of DNN Accelerators**
   - Level: Review
-  - Note: 
+  - Note: (Broadly) Parametrized end-to-end DNN accelerator generator
+
+## GTech-Callie Hao
+- **LaZagna: An Open-Source Framework for Flexible 3D FPGA Architectural Exploration**
+  - Level: Listing 
+  - Note: 3D FPGA fabric & Benchmark P&R flow on top of open-sourced project
+- **Escaping Flatland** 
+  - Level: Listing 
+  - Note: 3D-aware FPGA placement problem (algorithmic improvement)
+
+## GTech-Tushar Krishna 
+- **FEATHER: A Reconfigurable Accelerator with Data Reordering Support for Low-Cost On-Chip Dataflow Switching**
+  - Level: Review 
+  - Note: (method 부터 다시 보기)
+
 
 
 GROW: A Row-Stationary Sparse-Dense GEMM Accelerator for Memory-Efficient Graph Convolutional Neural Networks, Hwang et al., HPCA-2023
